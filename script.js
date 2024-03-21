@@ -9,26 +9,14 @@ for(let i of colorBox){
 function changeColorIn(e){
     for(let i of colorBox){
         if(i.id != e.target.id){
-            i.style.cssText=`
-			width: 50px;
-			height: 50px;
-			display: inline-block;
-			margin: 10px;
-			background-color: #6F4E37; /*coffee */
-			cursor: pointer;`
+            i.style.backgroundColor = "#6F4E37";
         }
     }
 }
 function changeColorOut(e){
     for(let i of colorBox){
         if(i.id != e.target.id){
-            i.style.cssText=`
-			width: 50px;
-			height: 50px;
-			display: inline-block;
-			margin: 10px;
-			background-color: #E6E6FA; /*lavender */
-			cursor: pointer;`
+            i.style.backgroundColor = "#E6E6FA";
         }
     }
 }
