@@ -2,8 +2,8 @@
 let colorBox = document.querySelectorAll(".square")
 
 for(let i of colorBox){
-    i.addEventListener("mouseenter",changeColorIn)
-    i.addEventListener("mouseleave",changeColorOut)
+    i.addEventListener("mouseover",changeColorIn)
+    i.addEventListener("mouseout",changeColorOut)
 
 }
 function changeColorIn(e){
